@@ -4,11 +4,11 @@ In this project i show how work a voices assistant and how do a voice assistant 
 
 We develop all the phase that this interfaces using to understand us and one phase more, sentyment analyisis.
 
-You can see a litle introduction with the next slides.
+You can see a litle introduction with the next [Slides](https://speakerdeck.com/borjagodoy/esta-web-si-que-sabe-como-hablarme "Slides").
 
 ### How use
 
-####Backend
+#### Backend
 
 In the beging you need take a API key for tone analyze, you can follow the next [instrucctions](https://cloud.ibm.com/apidocs/tone-analyzer "instructions")
 
@@ -28,7 +28,7 @@ and start the server
 
 `npm start`
 
-###Frontend
+#### Frontend
 Before to start the app you need create a agent in [Dialog Flow](https://dialogflow.cloud.google.com/ "Dialog Flow") and take the `API CLIENT` of agent in the settings of the agent.
 when you have this token, you need create a .env file in the frontend folder.
 `cd frontend && touch .env`
